@@ -23,7 +23,7 @@ setup(
     url="https://github.com/revsys/pipup",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=["click==7.0"],
+    install_requires=["click==8.1.3"],
     setup_requires=["pytest-runner"],
     tests_require=["pytest"],
     entry_points="""
