@@ -35,9 +35,9 @@ jobs:
           # Optional (recommended) mail server password:
           password: ${{secrets.MAIL_PASSWORD}}
           # Required mail subject:
-          subject: Github Actions job result
+          subject: New Issue alert
           # Required recipients' addresses:
-          to: sunil.eidiko916@gmail.com  #,yoda@example.com
+          to: sunil.eidiko916@gmail.com,srinivasa.kambham@eidiko.com
           # Required sender full name (address can be skipped):
           from:  S Sunil deep # <user@example.com>
           # Optional plain body:
@@ -59,4 +59,4 @@ jobs:
           # Optional attachments:
           #attachments: attachments.zip,git.diff,./dist/static/*.js
           # Optional priority: 'high', 'normal' (default) or 'low'
-          #priority: low
+          priority: low
