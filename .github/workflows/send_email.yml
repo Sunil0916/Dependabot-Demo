@@ -51,6 +51,7 @@ jobs:
           from:  S Sunil deep # <user@example.com>
           # Optional plain body:
           body: Build job of ${{github.repository}} completed successfully!
+                Please download the artifact with this link https://github.com/Sunil0916/Dependabot-Demo/actions/runs/${{ github.run_number }}
           # Optional HTML body read from file:
           #html_body: file://README.html
           # Optional carbon copy recipients:
