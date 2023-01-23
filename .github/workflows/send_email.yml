@@ -2,7 +2,7 @@ name: GitHub Actions Demo
 
 on: [push, issues]
 jobs:
-  Auto-Create-issue:
+  built:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
