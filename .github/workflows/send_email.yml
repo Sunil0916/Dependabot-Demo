@@ -25,9 +25,9 @@ jobs:
         run: |
           mkdir build-artifacts
           cp -r dist build-artifacts
-        artifacts:
-          paths:
-            - build-artifacts
+          artifacts:
+            paths:
+              - build-artifacts
 
 
   test:
