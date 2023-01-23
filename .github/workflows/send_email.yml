@@ -13,14 +13,14 @@ jobs:
           title: Simple test issue
           body: my new issue
           assignees: ${{ github.actor }}
-      #- run: mkdir -p path/to/artifact
+      - run: mkdir -p path/to/artifact
 
-      #- run: echo hello > path/to/artifact/world.txt
+      - run: echo hello > path/to/artifact/world.txt
 
       - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: path/to/artifact/world.txt
+          path: test/requirements_files
       
       - name: Send mail
         uses: dawidd6/action-send-mail@v3
