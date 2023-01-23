@@ -13,9 +13,9 @@ jobs:
           title: Simple test issue
           body: my new issue
           assignees: ${{ github.actor }}
-      - run: mkdir -p path/to/artifact
+      #- run: mkdir -p path/to/artifact
 
-      - run: echo hello > path/to/artifact/world.txt
+      #- run: echo hello > path/to/artifact/world.txt
 
       - uses: actions/upload-artifact@v3
         with:
