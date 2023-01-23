@@ -20,7 +20,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: ./test/requirements_files
+          path: path/to/artifact/world.txt
       
       - name: Send mail
         uses: dawidd6/action-send-mail@v3
