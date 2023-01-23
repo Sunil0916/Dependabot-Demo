@@ -25,9 +25,9 @@ jobs:
         run: |
           mkdir build-artifacts
           cp -r dist build-artifacts
-        artifacts:
-          paths:
-            - build-artifacts
+          artifacts:
+            paths:
+              - build-artifacts
 
       - name: Send mail
         uses: dawidd6/action-send-mail@v3
